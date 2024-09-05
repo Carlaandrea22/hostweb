@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4682b4;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #2e8b57;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #3cb371;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #4682b4;
+}
+
+p {
+    text-align: justify;
+}
+
+ul, ol {
+    margin: 10px 0;
+    padding-left: 40px;
+}
+
+blockquote {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 10px solid #ccc;
+    font-style: italic;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus, form textarea:focus, form select:focus {
+    border-color: #4682b4;
+    box-shadow: 0 0 5px rgba(70, 130, 180, 0.5);
+}
+
+video {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .gallery img {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    nav a {
+        float: none;
+        width: 100%;
+        text-align: left;
+        padding: 14px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    form label, form input, form textarea, form select {
+        font-size: 14px;
+    }
+}
+
+.bg-plomo-clarito {
+    background-color: #d3d3d3; /* Gris plomo clarito */
+}

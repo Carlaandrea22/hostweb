@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mejorar la Confianza - Desarrollo Personal</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/confianza.css">
+</head>
+<body>
+    <button id="toggleTheme" class="btn btn-secondary m-3">Cambiar Tema</button>
+
+    <p id="fechaActual" class="text-center my-3"></p>
+    
+    <main class="container my-5" id="miContenido">
+        <h2>Bienvenidos a nuestro sitio de Superación Personal</h2>
+        <ul id="miLista">
+            <li>Superación Personal</li>
+            <li>Mindfulness</li>
+        </ul>
+    
+        <button id="agregarItem" class="btn btn-primary mt-3">Agregar Elemento a la Lista</button>
+        <button id="eliminarItem" class="btn btn-danger mt-3">Eliminar Último Elemento de la Lista</button>
+    </main>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Confianza</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="superacion.html">Superación Personal</a></li>
+            <li class="nav-item"><a class="nav-link" href="mindfulness.html">Mindfulness</a></li>
+            <li class="nav-item"><a class="nav-link active" href="confianza.html">Mejorar la Confianza</a></li>
+            <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<header class="jumbotron text-center bg-primary text-white mb-0">
+    <h1 class="display-4">Mejorar la Confianza</h1>
+    <p class="lead">Descubre tu potencial y alcanza nuevas alturas</p>
+</header>
+
+
+<main class="container my-5">
+    <section>
+        <h2 class="mb-4">¿Por qué es importante la confianza?</h2>
+        <p>La confianza es la base para lograr el éxito en la vida personal y profesional. Es la creencia en tus propias habilidades, la seguridad para tomar decisiones y la capacidad de enfrentar desafíos con una actitud positiva.</p>
+        <blockquote class="blockquote text-center my-4">
+            <p class="mb-0">"La confianza en uno mismo es el primer secreto del éxito."</p>
+            <footer class="blockquote-footer">Ralph Waldo Emerson</footer>
+        </blockquote>
+        <p>Mejorar tu confianza te permitirá aprovechar nuevas oportunidades, superar obstáculos y construir relaciones más fuertes. No se trata de ser perfecto, sino de ser consciente de tus fortalezas y aceptar tus debilidades.</p>
+
+        <h3 class="mt-5">Consejos para Mejorar la Confianza</h3>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Establece metas claras y alcanzables.</li>
+            <li class="list-group-item">Practica la autoafirmación positiva.</li>
+            <li class="list-group-item">Enfrenta tus miedos gradualmente.</li>
+            <li class="list-group-item">Cultiva una actitud de gratitud.</li>
+            <li class="list-group-item">Rodéate de personas que te apoyen.</li>
+        </ul>
+
+        <h3 class="mt-5">Galería de Inspiración</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="imagenes/confianza1.png" alt="Superando retos" class="img-fluid rounded mb-3">
+            </div>
+            <div class="col-md-4">
+                <img src="imagenes/confianza2.png" alt="Confianza personal" class="img-fluid rounded mb-3">
+            </div>
+            <div class="col-md-4">
+                <img src="imagenes/confianza3.png" alt="Motivación y éxito" class="img-fluid rounded mb-3">
+            </div>
+        </div>
+
+        <h3 class="mt-5">Video Motivacional sobre la Confianza</h3>
+        <div class="embed-responsive embed-responsive-16by9 mb-5">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8ZQYcBhfoFM?si=mYCjdQalKhXXsNQV" allowfullscreen></iframe>
+        </div>
+
+        <h3 class="mt-5">Ejercicio para Incrementar la Confianza</h3>
+        <ol class="list-group list-group-numbered">
+            <li class="list-group-item">Identifica una situación que te genere inseguridad.</li>
+            <li class="list-group-item">Escribe tres razones por las que puedes superar ese desafío.</li>
+            <li class="list-group-item">Visualiza cómo te sentirás después de haberlo superado.</li>
+            <li class="list-group-item">Da un pequeño paso hacia enfrentar esa situación.</li>
+            <li class="list-group-item">Repite el proceso hasta que sientas más confianza.</li>
+        </ol>
+
+        <h3 class="mt-5">Formulario de Testimonios</h3>
+        <form action="enviar_testimonios.html" method="post" class="border p-4 rounded">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="testimonio">Testimonio:</label>
+                <textarea id="testimonio" name="testimonio" rows="4" class="form-control" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="categoria">Categoría:</label>
+                <select id="categoria" name="categoria" class="form-control">
+                    <option value="motivacional">Motivacional</option>
+                    <option value="personal">Personal</option>
+                    <option value="profesional">Profesional</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+</main>
+
+
+<footer class="bg-dark text-white text-center py-3">
+    <p>Diseñado por: Carla Andrea Camacho Sanizo</p>
+    <p>Contacto: 65303501 | Quillacollo, Cochabamba, Bolivia</p>
+    <p>Síguenos en:</p>
+    <a href="https://www.facebook.com" class="text-white mr-2">Facebook</a>
+    <a href="https://www.twitter.com" class="text-white mr-2">Twitter</a>
+    <a href="https://www.instagram.com" class="text-white">Instagram</a>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="js/scriptconfianza.js"></script>
+</body>
+</html>
+

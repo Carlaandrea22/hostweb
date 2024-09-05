@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Desarrollo Personal</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+
+<header class="bg-primary text-white text-center py-5">
+    <div class="container">
+        <h1 class="display-4">Contacto</h1>
+        <p class="lead">Envíanos tus consultas o mensajes</p>
+    </div>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Desarrollo Personal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="superacion.html">Superación Personal</a></li>
+                <li class="nav-item"><a class="nav-link" href="mindfulness.html">Mindfulness</a></li>
+                <li class="nav-item"><a class="nav-link" href="confianza.html">Mejorar la Confianza</a></li>
+                <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                <li class="nav-item active"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <form action="enviar_contacto.html" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+
+        <input type="submit" value="Enviar Mensaje">
+    </form>
+</main>
+
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <p>Diseñado por: Carla Andrea Camacho Sanizo</p>
+        <p>Contacto: 65303501 | Quillacollo, Cochabamba, Bolivia</p>
+        <p>Síguenos en:</p>
+        <a href="https://www.facebook.com" class="text-white">Facebook</a> |
+        <a href="https://www.twitter.com" class="text-white">Twitter</a> |
+        <a href="https://www.instagram.com" class="text-white">Instagram</a>
+    </div>
+</footer>
+
+
+<script src="js/contacto.js"></script>
+
+</body>
+</html>

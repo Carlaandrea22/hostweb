@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindfulness - Desarrollo Personal</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/mindfulness.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-plomo-clarito">
+        <a class="navbar-brand" href="index.html">Desarrollo Personal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="superacion.html">Superación Personal</a></li>
+                <li class="nav-item active"><a class="nav-link" href="mindfulness.html">Mindfulness</a></li>
+                <li class="nav-item"><a class="nav-link" href="confianza.html">Mejorar la Confianza</a></li>
+                <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="bg-plomo-clarito jumbotron text-center my-4">
+        <h1 class="display-4">Mindfulness</h1>
+        <p class="lead">Encuentra la paz en el presente</p>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>¿Qué es Mindfulness?</h2>
+            <p>Mindfulness, o atención plena, es la práctica de estar completamente presente en el momento, consciente de tus pensamientos, emociones y entorno sin juzgarlos. Es una herramienta poderosa para reducir el estrés, mejorar la concentración y aumentar el bienestar general.</p>
+            <blockquote class="blockquote">
+                <p class="mb-0">"La atención plena significa estar despierto. Significa saber lo que estás haciendo."</p>
+                <footer class="blockquote-footer">Jon Kabat-Zinn</footer>
+            </blockquote>
+            <p>El objetivo de mindfulness no es eliminar los pensamientos, sino observarlos sin aferrarse a ellos. Esta práctica nos permite responder de manera más consciente en lugar de reaccionar automáticamente a los estímulos.</p>
+
+            <h3>Beneficios del Mindfulness</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Reducción del estrés y la ansiedad.</li>
+                <li class="list-group-item">Mejora de la concentración y la memoria.</li>
+                <li class="list-group-item">Aumento de la satisfacción en la vida diaria.</li>
+                <li class="list-group-item">Mejor manejo de las emociones difíciles.</li>
+            </ul>
+
+            <h3 class="mt-4">Video sobre Mindfulness</h3>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NgmrVI5H5JE?si=COE3fKo2jf16R56q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <h3 class="mt-4">Ejercicio de Respiración</h3>
+            <p>A continuación, te ofrecemos un ejercicio simple para practicar la respiración consciente:</p>
+            <ol>
+                <li>Siéntate en un lugar cómodo, con la espalda recta.</li>
+                <li>Cierra los ojos y lleva toda tu atención a tu respiración.</li>
+                <li>Inhala profundamente por la nariz, sintiendo cómo se expanden tus pulmones.</li>
+                <li>Exhala lentamente por la boca, dejando ir cualquier tensión.</li>
+                <li>Repite este proceso durante 5 minutos, enfocándote solo en tu respiración.</li>
+            </ol>
+
+            <h3 class="mt-4">Formulario de Comentarios</h3>
+            <form action="enviar_comentarios.html" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="categoria">Categoría:</label>
+                    <select id="categoria" name="categoria" class="form-control">
+                        <option value="consulta">Consulta</option>
+                        <option value="sugerencia">Sugerencia</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-plomo-clarito text-center py-4">
+        <p>Diseñado por: Carla Andrea Camacho Sanizo</p>
+        <p>Contacto: 65303501 | Quillacollo, Cochabamba, Bolivia</p>
+        <p>Síguenos en:</p>
+        <a href="https://www.facebook.com">Facebook</a> |
+        <a href="https://www.twitter.com">Twitter</a> |
+        <a href="https://www.instagram.com">Instagram</a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="js/scriptmindfulness.js"></script>
+</body>
+</html>
